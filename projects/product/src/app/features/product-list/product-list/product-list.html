@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>Product List (Facade Pattern)</h3>
+            <button class="btn btn-primary my-2" (click)="load()">Refresh Products</button>
+        </div>
+
+        <ul class="list-group">
+            @for (item of (product$ | async) ?? []; track item.id) {
+            <li class="list-group-item">{{ item.name }} - ${{ item.price }}</li>
+            }
+        </ul>
+    </div>
+</div>
