@@ -11,9 +11,7 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "experimentalDecorators": true,
-    "paths": {
-      "shared-lib": ["./dist/shared-lib"]
-    },
+
     "importHelpers": true,
     "target": "ES2022",
     "module": "preserve"

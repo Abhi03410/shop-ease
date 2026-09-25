@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   template: ` <p>shared-lib works!</p> `,
   styles: ``,
 })
-export class SharedLib {}
+export class SharedLib {
+  
+}
